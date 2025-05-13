@@ -6,7 +6,7 @@ import axios from 'axios';
 function App() {
   const [city, setCity] = useState('');
   const [weatherData, setWeatherData] = useState(null);
-  const [unit, setUnit] = useState('c'); // 'c' for Celsius, 'f' for Fahrenheit
+  const [unit, setUnit] = useState('c'); 
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
 
